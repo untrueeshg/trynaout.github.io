@@ -1,0 +1,95 @@
+/* Общие стили для страницы */
+body {
+    background-color: #ffc0cb;  /* Светлый фон */
+    font-family: 'Montserrat';
+    text-align: center;         /* Центрируем текст */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;              /* Высота на весь экран */
+}
+
+/* Стили для заголовка */
+h1 {
+    color: #000000;
+    font-size: 2em;
+    margin-bottom: 20;
+}
+
+h2 {
+    color: #000000;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+/* Стили для кнопок */
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: stretch; 
+}
+
+button {
+    background-color: #2cca47;   /* Синий фон */
+    color: white;                /* Белый текст */
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 10px;         /* Скругленные углы */
+    margin: 150px;                /* Отступ между кнопками */
+    margin-top: 15px;
+    cursor: pointer;            /* Курсор-указатель */
+    transition: background-color 0.3s ease;   /* Плавный переход */
+}
+
+/* Эффекты при наведении на кнопки */
+button:hover {
+    background-color: #1f9132;   /* Темно-синий фон при наведении */
+}
+
+/* Стили для кнопки "нет!" */
+#bno2, #bno3 {
+    background-color: #e74c3c;    /* Красный фон */
+}
+
+#bno2:hover, #bno3:hover {
+    background-color: #c0392b;    /* Темно-красный фон при наведении */
+}
+
+#afraid {
+    margin: 30px;
+    background-color: #3ca8e7;
+}
+
+#afraid:hover {
+    background-color: #246388;
+}
+
+#gifspan {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: stretch; 
+}
+
+.goyda {
+    max-width: 42%;  /* Ограничиваем ширину гифки */
+    height: auto;    /* Поддерживаем пропорции */
+    margin-top: 30px; /* Отступ сверху */
+}
+
+.pls {
+    max-width: 12%;  /* Ограничиваем ширину гифки */
+    height: auto;    /* Поддерживаем пропорции */
+    margin-top: 30px; /* Отступ сверху */
+}
+
+
+
