@@ -1,30 +1,27 @@
-/* Общие стили для страницы */
 body {
-    background-color: #ffc0cb;  /* Светлый фон */
+    background-color: #4d4642; 
     font-family: 'Montserrat';
-    text-align: center;         /* Центрируем текст */
+    text-align: center;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;              /* Высота на весь экран */
+    height: 100vh;
 }
 
-/* Стили для заголовка */
 h1 {
-    color: #000000;
+    color: #ac9d92;
     font-size: 2em;
     margin-bottom: 20;
 }
 
 h2 {
-    color: #000000;
+    color: #ac9d92;
     margin: 10px;
     margin-bottom: 5px;
 }
 
-/* Стили для кнопок */
 .buttons {
     display: flex;
     flex-direction: row;
@@ -35,30 +32,28 @@ h2 {
 }
 
 button {
-    background-color: #2cca47;   /* Синий фон */
-    color: white;                /* Белый текст */
+    background-color: #2cca47;
+    color: white;
     border: none;
     padding: 15px 40px;
     font-size: 18px;
-    border-radius: 10px;         /* Скругленные углы */
-    margin: 150px;                /* Отступ между кнопками */
+    border-radius: 10px;
+    margin: 150px;
     margin-top: 15px;
-    cursor: pointer;            /* Курсор-указатель */
-    transition: background-color 0.3s ease;   /* Плавный переход */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-/* Эффекты при наведении на кнопки */
 button:hover {
-    background-color: #1f9132;   /* Темно-синий фон при наведении */
+    background-color: #1f9132;
 }
 
-/* Стили для кнопки "нет!" */
 #bno2, #bno3 {
-    background-color: #e74c3c;    /* Красный фон */
+    background-color: #e74c3c;
 }
 
 #bno2:hover, #bno3:hover {
-    background-color: #c0392b;    /* Темно-красный фон при наведении */
+    background-color: #c0392b;
 }
 
 #afraid {
@@ -80,15 +75,15 @@ button:hover {
 }
 
 .goyda {
-    max-width: 42%;  /* Ограничиваем ширину гифки */
-    height: auto;    /* Поддерживаем пропорции */
-    margin-top: 30px; /* Отступ сверху */
+    max-width: 42%;
+    height: auto;
+    margin-top: 30px;
 }
 
 .pls {
-    max-width: 12%;  /* Ограничиваем ширину гифки */
-    height: auto;    /* Поддерживаем пропорции */
-    margin-top: 30px; /* Отступ сверху */
+    max-width: 12%;
+    height: auto;
+    margin-top: 30px;
 }
 
 
