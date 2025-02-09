@@ -4,7 +4,6 @@ let noButton = document.getElementById('bno3');
 let scaleValue = 1;
 let clickCount = 0;
 
-// Обработчик для кнопки "нет"
 noButton.addEventListener('click', function() {
     clickCount++;
 
